@@ -1,0 +1,47 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+/*メインビジュアル*/
+.main-visual {
+  height: 400px;/* 高さ:400px */
+  width: 100%;/* 横幅:100% */
+  background-image: url(img/mv.jpg);/* 背景設定 */
+  background-size: cover; /*縦横比をいじしたまま背景領域を埋め尽くす*/
+  background-position: bottom;/*背景画像を下に配置*/
+}
+
+/*メイン*/
+main {
+  width: 840px;/* 横幅:840% */
+  margin: 50px auto;/*外側余白上下:0,左右：auto*/
+}
+
+.service1 {
+  margin-bottom: 30px;/*下側の外側の余白*/
+  border-bottom: 1px solid #d1d1d1;/*1pxの白実下線*/
+  padding-bottom: 30px;/*下側の内側の余白*/
+}
+
+.service2 {
+  margin-bottom: 30px;/*下側の外側の余白*/
+  border-bottom: 1px solid #d1d1d1;/*1pxの白実下線*/
+  padding-bottom: 30px;/*下側の内側の余白*/
+}
+
+.service3 {
+  margin-bottom: 30px;/*下側の外側の余白*/
+  border-bottom: 1px solid #d1d1d1;/*1pxの白実下線*/
+  padding-bottom: 30px;/*下側の内側の余白*/
+}
+
+.service4 {
+  border-bottom: 1px solid #d1d1d1;/*1pxの白実下線*/
+  padding-bottom: 30px;/*下側の外側の余白*/
+}
+
+}
